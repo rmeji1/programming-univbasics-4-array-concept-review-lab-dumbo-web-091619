@@ -12,8 +12,8 @@ end
 
 def find_min_value(array)
   min = Integer.max 
-  for element in array{
+  for element in array
     min = element if element < min
-  }
+  end
   min
 end
