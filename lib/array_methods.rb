@@ -4,9 +4,9 @@ end
 
 def find_max_value(array)
   max = 0 
-  for element in array{
+  for element in array
     max = element if element > max
-  }
+  end
   max
 end
 
