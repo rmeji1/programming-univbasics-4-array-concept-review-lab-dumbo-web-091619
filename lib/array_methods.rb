@@ -11,7 +11,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min = Integer.max 
+  min = Integer 
   for element in array
     min = element if element < min
   end
